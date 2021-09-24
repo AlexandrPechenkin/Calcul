@@ -46,7 +46,6 @@ public class Main {
                     System.out.println("Неверное выражение");
                 }
             } else {
-
                 if (string.indexOf('+') > 0) {
                     numbers = string.split("[+]");
                     if (Integer.parseInt(numbers[0]) > 10 || Integer.parseInt(numbers[1]) > 10 ||
